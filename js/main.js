@@ -53,10 +53,10 @@ $(document).ready(function() {
             e.keyCode === 115 || 
             e.keyCode === 19 || 
             e.keyCode === 117)) {
-            alert('not allowed');
-            return false;
-        } else {
+            alert('Амжилттай');
             return true;
+        } else {
+            return false;
         }
     };
     
