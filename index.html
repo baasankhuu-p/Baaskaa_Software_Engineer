@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/frameworks.css">
     <!--// Theme Main Css //-->
     <link rel="stylesheet" href="css/style.css">
+    <!--//preloader css//-->
+    <link rel="stylesheet" href="css/preloader.css">
     <!--// Page Wrapper Start //-->
     <div class="page-wrapper" id="top">
 
@@ -55,13 +57,16 @@
                                 <a class="nav-link" href="#" data-scroll-nav="3">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#" data-scroll-nav="4">Portfolio</a>
-                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#" data-scroll-nav="6">Blog</a>
+                               <a class="nav-link" href="#" data-scroll-nav="4">Course</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link menu-link" href="#" data-scroll-nav="7">Contact</a>
+                                <a class="nav-link" href="#" data-scroll-nav="5">Project</a>
+                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" data-scroll-nav="7">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link menu-link" href="#" data-scroll-nav="8">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/login.html">
@@ -91,12 +96,9 @@
                             <h1>Im <span id="typed-text"></span></h1>
                             <h6> > <span id="typed-information"></span> <</h6>
                             <p>
-                                &nbsp;&nbsp;&nbsp;Сайн байна уу. <br>Намайг Баасанхүү гэдэг. 
-                                   Увс Аймаг Улаангом суманд төрж өссөн.
-                                МУИС-ын МКУТ салбарын Программ хангамжийн 
-                                ангийн 3-р курсын оюутан. Миний хобби веб/апп 
-                                хөгжүүлэх, шатар даам тоглох, мөн сагсан 
-                                бөмбөг, волейбол тоглох.
+                                &nbsp;&nbsp;&nbsp;
+                                Энэхүү one page вебсайт нь миний хөгжүүлж буй анхны вебсайт бөгөөд уг вебсайтыг танхим болон цахим 
+                                хосолсон хэлбэрээр сургалт зохион байгуулахад ашиглах зорилготойгоор хөгжүүлсөн болно. Энэхүү хуудсанд бүх сэдэвийн хүрээнд мундаг мундаг багш нарын сургалт мөн миний бэлтгэсэн Программистуудын үндсэн суурь хичээлүүдийг түгээх зорилготой
                             </p>
                             <a href="#" class="default-orange-btn"> JOIN <i class="ml-2 fas fa-plus-square"></i></a>
                         </div>
@@ -131,7 +133,12 @@
                             I'm <span>Web & UI Designer, Software</span>
                         </h4>
                         <p>
-                           Hi. Welcome to My Website. My Name's Baasankhuu P. I'm student software engineer.
+                            Сайн байна уу. <br>Намайг Баасанхүү гэдэг. 
+                               Увс Аймаг Улаангом суманд төрж өссөн.
+                            МУИС-ын МКУТ салбарын Программ хангамжийн 
+                            ангийн 3-р курсын оюутан. Миний хобби веб/апп 
+                            хөгжүүлэх, шатар даам тоглох, мөн сагсан 
+                            бөмбөг, волейбол тоглох.
                         </p>
                         <ul class="about-list">
                             <li>
@@ -509,33 +516,37 @@
         </section>
         <!--// Counters End //-->
 
+        <style>.price-value-list>li{text-align: left;}</style>
         <!--// My Course Price Start //-->
-        <section class="my-prices section pb-minus-70">
+        <section class="course section pb-minus-70" id="course" data-scroll-index="4">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-7 col-sm-12">
                         <h3 class="section-title">My<span>Course</span></h3>
                         <hr class="section-line-border">
-                        <p class="section-sub-line">Prices and packages may suit you.</p>
+                        <p class="section-sub-line">Эдгээр хичээлүүдийг нэг удаа төлөөд 1 жил үнэгүй үзэх юм. Хичээлүүд жил тутам шинэчлэлт хийж ямар нэгэн хоцрогдсон зүйлээс сэргийлэх юм.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <div class="price-table text-center">
                             <div class="price-top-inner">
                                 <h5>FUNDAMENTAL OF ALGORITHM</h5>
                                 <span class="flaticon-028-design price-icon"></span>
                             </div>
                             <ul class="price-value-list">
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis earum aliquam sit adipisci corrupti, quo beatae eveniet, atque nobis cum facilis ad, aperiam molestias animi commodi ullam vitae nisi iure.</li>
+                                <li>
+                                    Програмыг компьютерт шууд бичиж оруулах ёстой юу? Тэгж болно. Гэхдээ, програмчлалд анхлан суралцаж буй хүний хувьд эхлээд бичих гэж буй програмынхаа загвар буюу бүдүүвчийг зохиогоод дараа нь түүнийхээ дагуу програмаа бичих нь илүү үр дүнтэй гэж мэргэжилтнүүд үздэг. Ийм загвар буюу төлөвлөөг алгоритм гэдэг. Эсвэл “алгоритм бол тодорхой үр дүн гаргаж авахын тулд дараалан гүйцэтгэх ёстой үйлдлүүдийн жагсаалт юм”. Эсвэл “алгоритм бол тодорхой үр дүн гаргаж авахын тулд баримтлах ерөнхий дүрэм юм”. Алгоритм зохиох процессыг мэдээж алгоритмчлал гэнэ. Ер нь хүн ямар ч ажлыг хийхдээ эхлээд төлөвлөгөө гаргадаг шүү дээ. Тэрэнтэй л адил гэсэн үг. Алгоритм гэдэг үг өөрөө, 783-850 онд амьдарч байсан дундад азийн гарамгай тоочин Мухаммед ибн Муса аль-Хорезми хэмээх хүний нэрний гажсан хувилбар болох Алхори[ө]мы (Algorithmi) гэсэн үгээс гаралтай ажээ..
+                                </li>
                             </ul>
                             <div class="price-text">
+                                <h5>55.000 ₮</h5>
                                 <span>30.000 ₮</span>
                             </div>
                             <a href="#" class="default-orange-btn">Сургалт авах</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <div class="price-table text-center">
                             <div class="price-top-inner">
                                 <h5>C programming language</h5>
@@ -543,15 +554,19 @@
                             </div>
                             <ul class="price-value-list">
                                 
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis earum aliquam sit adipisci corrupti, quo beatae eveniet, atque nobis cum facilis ad, aperiam molestias animi commodi ullam vitae nisi iure.</li>
+                                <li>
+                                    Хүн төрөлхтөн хоорондоо харьцхад "Хэл"-ийг ашиглан ойлголцдог. Мөн бас компьютер хоорондоо эсвэл компьютер хүн хооронд ойлголхын тулд "Программын хэл"-ийг ашиглана компьютщрт тушаал өгнө компьютер нь түүний тушаалын дагуу ажилдаг. ийм прогаммын хэл нь дотроо маш олон төрөлтэй байдаг.
+                                    Си хэл нь бүх прогаммын хэлний суурь болдог хэл юм. Жишээн Веб программист, Window программист нар Си хэлний суурьтай байж хөгжүүлэлт хийдэг.
+                                </li>
                             </ul>
                             <div class="price-text">
+                                <h5>55.000 ₮</h5>
                                 <span>30.000 ₮</span>
                             </div>
                             <a href="#" class="default-orange-btn">Сургалт авах</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <div class="price-table text-center">
                             <div class="price-top-inner">
                                 <h5>Website basics</h5>
@@ -559,27 +574,33 @@
                             </div>
                             <ul class="price-value-list">
                                 
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis earum aliquam sit adipisci corrupti, quo beatae eveniet, atque nobis cum facilis ad, aperiam molestias animi commodi ullam vitae nisi iure.</li>
+                                <li>
+                                    Веб хуудас (цахим хуудас) гэдэг нь html тэмдэглэгээт хэл (скрипт хэл) ашиглан үүсгэгдсэн, текст, зураг болон бусад график, видео дүрс, дуу авиа агуулсан баримт юм. Харин тодорхой нэг домэйн нэр, интернэтэд байршсан хост, сэдэв, дизайн загвар, мэдээллийн сан болон холбоосуудаар (линк) өөр хоорондоо холбогдсон вэб хуудсуудын нэгдэлийг вэб сайт (Website) гэх ба үндсэн хуудсыг нь нүүр хуудас гэнэ. Хувь хүн эсвэл байгууллагын интернэт дэх төлөөлөгч гэж ойлгож болно. Сайт нь хэрэглэгчдийн компьютер эсвэл гар утсанд суулгасан вэб хөтчийн (Google Chrome, Mozilla Firefox, Safari г.м.) тусламжтайгаар WWW стандартын дагуу мэдээллийг харуулдаг мэдээллийн нөөц юм.
+                                </li>
                             </ul>
                             <div class="price-text">
-                                <span>30.000 ₮</span>
+                                <h5>65.000 ₮</h5>
+                                <span>40.000 ₮</span>
                             </div>
                             <a href="#" class="default-orange-btn">Сургалт авах</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <div class="price-table text-center">
                             <div class="price-top-inner">
                                 <h5>Computer using</h5>
                                 <span class="flaticon-006-work price-icon"></span>
                             </div>
                             <ul class="price-value-list">
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis earum aliquam sit adipisci corrupti, quo beatae eveniet, atque nobis cum facilis ad, aperiam molestias animi commodi ullam vitae nisi iure.</li>
+                                <li>
+                                    Орчин үед хүн бүр дэвшилтэт технологи болох компьютер болон бусад электрон хэрэгсэлыг ашиглан өөрсдийн ажлаа хөнгөвчилөн амжилтанд хүрч байна. Та өөрийгөө компьютерын талаар мэдлэг дутмаг гэж бодож байгаа бол танд энэхүү анхан шатны сургалт яг тохирсон сургалт байх болно. Энэхүү сургалтанд сууснаар та Компьютерын үүсэл хөгжил, төрөл, ерөнхий мэдлэг болон хамгийн чухал хэрэглээний программ болох Microsoft Office Word, Excel, Powerpoint гэх мэтчилэн олон программыг ашиглан өөрийн компьютерээ өөрөө засварлан сайжруулж түүртэхгүй болж цаашид өөрийн сурсан зүйлээ сайжруулан компьютерыг арван хуруу шигээ ашиглаж сурах боломжтой болно.
+                                </li>
                             </ul>
                             <div class="price-text">
-                                <span>30.000 ₮</span>
+                                <h5>0.0</h5>
+                                <span>Үнэгүй</span>
                             </div>
-                            <a href="#" class="default-orange-btn">Сургалт авах</a>
+                            <a href="/course.html" class="default-orange-btn"> үзэх </a>
                         </div>
                     </div>
                     
@@ -588,12 +609,12 @@
         </section>
         <!--// Ny Price End //-->
 
-        <!--// Portfolio Start //-->
-        <section class="section my-portfolio pb-minus-70" id="portfolio" data-scroll-index="4">
+        <!--// Project Start //-->
+        <section class="section my-portfolio pb-minus-70" id="portfolio" data-scroll-index="5">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-7 col-sm-12">
-                        <h3 class="section-title">My<span>Portfolio</span></h3>
+                        <h3 class="section-title">My<span>Project</span></h3>
                         <hr class="section-line-border">
                         <p class="section-sub-line">I attach importance to simplicity in design Take a look at my projects and decide.</p>
                     </div>
@@ -700,7 +721,7 @@
                 </div>
             </div>
         </section>
-        <!--// Portfolio End //-->
+        <!--// Project End //-->
         <!--// My Team Start //-->
         <section class="section" id="my-team">
             <div class="container">
@@ -808,7 +829,7 @@
         <!--// My Team End //-->
 
         <!--// Clients Start //-->
-        <section class="section testimonials" id="clients" data-scroll-index="5">
+        <section class="section testimonials" id="clients">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-7 col-sm-12">
@@ -891,13 +912,13 @@
         <!--// Testimonial End //-->
         
         <!--// Latest Blog Start //-->
-        <section class="latest-blog section" id="latest-blog" data-scroll-index="6">
+        <section class="latest-blog section" id="latest-blog" data-scroll-index="7">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-7 col-sm-12">
                         <h3 class="section-title">Мэдээ<span>Мэдээлэл</span></h3>
                         <hr class="section-line-border">
-                        <p class="section-sub-line">Сүүлийн үеийн мэдээлэл технологитой холбоотой уулзалтууд.</p>
+                        <p class="section-sub-line">Шинэ үеийн мэдээлэл технологитой холбоотой уулзалтууд.</p>
                     </div>
                 </div>
                 <div class="blog-slider owl-carousel owl-theme">
@@ -971,7 +992,7 @@
         <!--// Latest Blog End //-->
 
         <!--// Contact Start //-->
-        <section class="contact-me section" id="contact" data-scroll-index="7">
+        <section class="contact-me section" id="contact" data-scroll-index="8">
             <div class="container">
                 <div class="row justify-content-center text-center">
                     <div class="col-lg-7 col-sm-12">
@@ -1094,7 +1115,7 @@
             </div>
             <div class="copyright-wrap">
                 <div class="container">
-                    <p class="copyright-text text-center">©Baasankhuu P. who modified AnimationCoding Design</p>
+                    <p class="copyright-text text-center">Copyright © 2022 edited by ©Baasankhuu. All rights reserved. <br>Web design by AnimationCoding 2020</p>
                 </div>
             </div>
         </footer>
