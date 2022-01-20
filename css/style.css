@@ -235,7 +235,7 @@ p {
   transition: all 0.25s linear;
 }
 
-.default-blue-btn:hover {
+.default-orange-btn:hover {
   color: #fff;
   background: var(--blue-scroll);
   -webkit-animation: pulseOrange 1s 1 linear;
