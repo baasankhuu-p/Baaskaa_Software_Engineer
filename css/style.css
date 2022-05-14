@@ -80,7 +80,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 2.133rem;
+  font-size: 1.533rem;
 }
 
 h5, .h5 {
@@ -147,9 +147,8 @@ p {
 }
 
 .section .section-sub-line {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 70px;
-  text-transform: capitalize;
 }
 
 .section .section-title span {
@@ -1103,7 +1102,7 @@ p {
 /* ---------------------------------------------------------------- */
 @media only screen and (max-width: 767.98px) {
   .about-inner h4 {
-    font-size: 2.2rem;
+    font-size: 1.2rem;
   }
 }
 
